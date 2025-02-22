@@ -16,6 +16,19 @@
         display: flex;
         justify-content: center;
     }
+
+    #section-1 .Innersection-2 {
+        width: 85%;
+        margin: auto;
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 0px 4px 40px -2px rgba(0, 47, 88, 0.247);
+        padding: 20px;
+    }
     
     #section-1 .InnerSection .left {
         width: 98%;
@@ -218,8 +231,25 @@
         font-size: 14px;
     }
     .InnerSection-5 .menu ul li {
-        padding: 15px 0px;
+        padding: 15px 2px;
         transition: 0.1s;
+    }
+
+    .InnerSection-5 .box {
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        display: grid;
+        justify-content: space-between;
+        box-shadow: 0px 4px 20px -2px #002F5814;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    #section-5 .InnerSection-5 .btn {
+        margin: auto;
+        width: 85%;
+        margin-top: 30px;
     }
 
     .InnerSection-6 .box {
@@ -256,6 +286,7 @@
         width: calc(95% - 20px);
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         box-shadow: 0px 4px 20px -2px #002F5814;
         margin-top: 30px;
         padding: 15px;
@@ -302,7 +333,7 @@
     
     #section-7 .sectionInner-7 .course .btn {
         background: #FFFFFF;
-        width: 65%;
+        width: 75%;
         margin: auto;
         box-shadow: 0px 1px 2px 0px #1018280F, 0px 1px 3px 0px #1018281A;
         border-radius: 10px;
@@ -310,7 +341,7 @@
     }
     #section-5 .InnerSection-5 .btn {
         margin: auto;
-        width: 65%;
+        width: 85%;
         margin-top: 30px;
     }
 
@@ -367,6 +398,11 @@
         padding-top: 30px;
         padding-left: 60px;
         padding-bottom: 30px;
+        margin: auto;
+    }
+
+    #section-9 .sectionInner-9 figure {
+        width: 100%;
         margin: auto;
     }
 
