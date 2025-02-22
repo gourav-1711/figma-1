@@ -25,7 +25,7 @@
 
     #section-1 .InnerSection .left figcaption h3 {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 35px;
     
     }
     
@@ -86,8 +86,8 @@
     #section-1 .InnerSection .right .formDiv {
         width: 75%;
         position: absolute;
-        top: 8%;
-        left: 5%;
+        top: 3%;
+        left: 3%;
         display: flex;
         flex-direction: column;
         /* justify-content: center;
@@ -140,7 +140,7 @@
     }
 
     #section-2 .sectionInner .btn {
-        width: 52%;
+        width: 70%;
         color: white;
         padding-top: 30px;
         padding-left: 60px;
@@ -158,7 +158,7 @@
     }
 
     #section-3 .InnerSection-3 .content .box-1 {
-        width: 35%;
+        width: 95%;
         box-shadow: 0px 4px 20px -2px #002F5814;
         padding: 20px;
         border-radius: 7px;
@@ -215,10 +215,10 @@
     #section-5 .InnerSection-5 .menu ul {
         display: flex;
         justify-content: space-evenly;
-        font-size: 15px;
+        font-size: 14px;
     }
     .InnerSection-5 .menu ul li {
-        padding: 15px 3px;
+        padding: 15px 0px;
         transition: 0.1s;
     }
 
@@ -253,7 +253,7 @@
     }
 
     #section-6 .sectionInner .box {
-        width: calc(44% - 20px);
+        width: calc(95% - 20px);
         display: flex;
         flex-wrap: wrap;
         box-shadow: 0px 4px 20px -2px #002F5814;
@@ -263,7 +263,7 @@
     }
 
     #section-6 .sectionInner .btn {
-        width: 52%;
+        width: 70%;
         color: white;
         padding-top: 30px;
         padding-left: 60px;
@@ -318,6 +318,17 @@
         width: 95%;
         margin-top: 25px;
     }
+
+    #section-5 .InnerSection-5 .menu ul {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 15px;
+    }
+    #section-8 .sectionInner-8 {
+        width: 85%;
+        margin-left: 10px;
+        /* margin: auto; */
+    }
     #section-8 .sectionInner-8 .box-1 {
         width: 92%;
         margin: auto;
@@ -347,7 +358,7 @@
 
     #section-8 .sectionInner-8 .heading h3 {
         font-weight: 700;
-        font-size: 35px;
+        font-size: 28px;
         color: #0A2134;
     }
 
@@ -381,7 +392,7 @@
         max-width: 100%;
         display: block;
         position: fixed;
-        top: 92%;
+        top: 95%;
         left: 19%;
         display: flex;
         list-style: none;
